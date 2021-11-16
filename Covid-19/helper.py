@@ -57,7 +57,4 @@ class Shape:
         t_shp = gpd.read_file(r'./Data/Town/TOWN_MOI_1100415.shp')
         t_shp.set_index('TOWNNAME', inplace = True)
         return t_shp
-
-class Data:
-    def __init__():
         
